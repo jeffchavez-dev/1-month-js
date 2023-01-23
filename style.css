@@ -21,6 +21,7 @@ body {
     background-color: #f40082;
     animation-name: arrow;
     animation-duration: 1s;
+    animation-delay: 2s;
 
 }
 @keyframes arrow {
