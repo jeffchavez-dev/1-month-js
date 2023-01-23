@@ -22,6 +22,7 @@ body {
     animation-duration: 1s;
 
 }
-.nav_button .arrows:hover {
-   
-}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
