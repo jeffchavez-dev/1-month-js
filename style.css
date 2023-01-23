@@ -13,11 +13,14 @@ body {
     margin: 5px;
     border-radius: 2px;
     background-color: #fff;
+    
 }
 
 .nav_button:hover .arrows {
     background-color: #f40082;
     animation-name: arrow;
+    animation-duration: 1s;
+
 }
 .nav_button .arrows:hover {
    
