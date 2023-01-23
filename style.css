@@ -13,3 +13,7 @@ body {
     margin: 5px;
     background-color: #fff;
 }
+
+.nav_button .arrows:hover {
+    background-color: #f40082;
+}
