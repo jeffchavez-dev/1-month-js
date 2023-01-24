@@ -31,8 +31,15 @@ body {
 
 
 .arrow-one {
-
+    animation-name: turn;
+    animation-duration: 1s;
+    animation-delay: 2s;
 }
+
+@keyframes turn {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 
 .arrow-two {
     
