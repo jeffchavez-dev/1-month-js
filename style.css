@@ -9,9 +9,9 @@ body {
 
 
 .arrows {
-    height: 5px;
-    width: 50px;
-    margin: 5px;
+    height: 10px;
+    width: 75px;
+    margin: 10px;
     border-radius: 2px;
     background-color: #fff;
     
@@ -24,21 +24,21 @@ body {
     animation-delay: 2s;
 
 }
-@keyframes arrow {
+/* @keyframes arrow {
     from {background-color: red;}
     to {background-color: yellow;}
-  }
+  } */
 
 
 .arrow-one {
     animation-name: turn;
-    animation-duration: 1s;
-    animation-delay: 2s;
+    animation-duration: 2s;
+    /* animation-delay: .5s; */
 }
 
 @keyframes turn {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    from {transform: translateX(0)}
+    to {transform: translateX(90)}
   }
 
 .arrow-two {
