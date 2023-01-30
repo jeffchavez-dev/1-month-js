@@ -17,7 +17,7 @@ const movies = [
     {"title": "Shazam",
     "year": 2022
     },
-    {"title": "Movie",
+    {"title": "Grace",
     "year": 2022
     }
 ]
@@ -25,9 +25,10 @@ const movies = [
 const moviecard = document.querySelector('.moviecard');
 
 let results = [];
-for(let movie of movies) {
+for (let movie of movies) {
     results = `<h1> ${movie.title}</h1>`;
-    moviecard.innerHTML = results;
+    moviecard.append(results)
+    // moviecard.appendChild(results)
     console.log(results)
 
 }
