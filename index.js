@@ -26,9 +26,9 @@ const moviecard = document.querySelector('.moviecard');
 
 let results = [];
 const moviecardEl = movies.map(movie =>  {
-    results = `<h1> ${movie.title}</h1>`;
+    results = `<h1> ${movie.title}</h1>`
     moviecard.append(results)
-    // moviecard.appendChild(results)
+    moviecard.innerHTML = results;
     console.log(results)
 
 })
