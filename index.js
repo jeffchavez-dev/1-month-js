@@ -25,10 +25,10 @@ const movies = [
 const moviecard = document.querySelector('.moviecard');
 
 let results = [];
-for (let movie of movies) {
+const moviecardEl = movies.map(movie =>  {
     results = `<h1> ${movie.title}</h1>`;
     moviecard.append(results)
     // moviecard.appendChild(results)
     console.log(results)
 
-}
+})
