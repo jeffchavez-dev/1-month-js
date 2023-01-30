@@ -24,11 +24,10 @@ const movies = [
 
 const moviecard = document.querySelector('.moviecard');
 
-let results = [];
-const moviecardEl = movies.map(movie =>  {
-    results = `<h1> ${movie.title}</h1>`
-    moviecard.append(results)
-    moviecard.innerHTML = results;
-    console.log(results)
+const moviecardEl = movies.map(movie =>  
+    `<h1> ${movie.title}</h1>`
+    // moviecard.append(results)
+)
 
-})
+moviecard.innerHTML = moviecardEl;
+console.log(moviecardEl)
