@@ -27,11 +27,13 @@ const moviecard = document.querySelector('.moviecard');
 let results = [];
 const moviecardEl = movies.map(movie =>  {
     results = `<h1> ${movie.title}</h1>`
-    moviecard.append(results)
-    moviecard.innerHTML = results;
+    // moviecard.append(results)
+    
     console.log(results)
 
 })
+
+moviecard.innerHTML = results;
 
 
 // const moviecardEl = movies.map(movie =>  
