@@ -25,7 +25,7 @@ const movies = [
 const moviecard = document.querySelector('.moviecard');
 
 let results = [];
-for (movie of movies) {
+for (let movie of movies) {
     results = `<h1> My favorite movie is ${movie.title}</h1>`
     // moviecard.append(results)
     console.log(results)
