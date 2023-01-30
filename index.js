@@ -20,5 +20,6 @@ const movies = [
     {"title": "Movie",
     "year": 2022
     }
-
 ]
+
+const moviecard = document.querySelector('.moviecard');
