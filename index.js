@@ -28,4 +28,6 @@ let results = [];
 for(let movie of movies) {
     results = `<h1> ${movie.title}</h1>`;
     moviecard.innerHTML = results;
+    console.log(results)
+
 }
