@@ -8,3 +8,17 @@ The arrow stays yellow (doesn’t turn pink), even if the user hovers over it.
 When the user clicks on the hamburger, it animates into an arrow.
 When the user clicks on the arrow, it animates into a hamburger
 */
+
+
+const movies = [
+    {"title": "john wick",
+    "year": 2012
+    },
+    {"title": "Shazam",
+    "year": 2022
+    },
+    {"title": "Movie",
+    "year": 2022
+    }
+
+]
