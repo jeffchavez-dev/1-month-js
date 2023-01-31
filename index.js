@@ -36,10 +36,10 @@ for (let movie of movies) {
 
 
 
-// const moviecardEl = movies.map(movie =>  
-//     `<h1> ${movie.title}</h1>`
-//     // moviecard.append(results)
-// )
+const moviecardEl = movies.map(movie =>  
+    `<h1> ${movie.title}</h1>`
+    // moviecard.append(results)
+)
 
-// moviecard.innerHTML = moviecardEl;
-// console.log(moviecardEl)
+moviecard.innerHTML = moviecardEl;
+console.log(moviecardEl)
