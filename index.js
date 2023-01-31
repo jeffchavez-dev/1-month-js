@@ -30,7 +30,6 @@ for (let movie of movies) {
     // moviecard.append(results)
     console.log(results)
     moviecard.innerHTML = results;
-
 }
 
 
