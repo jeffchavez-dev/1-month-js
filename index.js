@@ -10,35 +10,35 @@ When the user clicks on the arrow, it animates into a hamburger
 */
 
 
-const movies = [
-    {"title": "john wick",
-    "year": 2012
-    },
-    {"title": "Shazam",
-    "year": 2022
-    },
-    {"title": "Grace",
-    "year": 2022
-    }
-]
+// const movies = [
+//     {"title": "john wick",
+//     "year": 2012
+//     },
+//     {"title": "Shazam",
+//     "year": 2022
+//     },
+//     {"title": "Grace",
+//     "year": 2022
+//     }
+// ]
 
-const moviecard = document.querySelector('.moviecard');
+// const moviecard = document.querySelector('.moviecard');
 
-let results = [];
-for (let movie of movies) {
-    results = `<h1> My favorite movie is ${movie.title}</h1>`
-    // moviecard.append(results)
-    console.log(results)
-    moviecard.innerHTML = results;
-}
-
-
+// let results = [];
+// for (let movie of movies) {
+//     results = `<h1> My favorite movie is ${movie.title}</h1>`
+//     // moviecard.append(results)
+//     console.log(results)
+//     moviecard.innerHTML = results;
+// }
 
 
-const moviecardEl = movies.map(movie =>  
-    `<h1> ${movie.title}</h1>`
-    // moviecard.append(results)
-)
 
-moviecard.innerHTML = moviecardEl;
-console.log(moviecardEl)
+
+// const moviecardEl = movies.map(movie =>  
+//     `<h1> ${movie.title}</h1>`
+//     // moviecard.append(results)
+// )
+
+// moviecard.innerHTML = moviecardEl;
+// console.log(moviecardEl)
